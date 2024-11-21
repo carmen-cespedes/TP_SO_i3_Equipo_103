@@ -1,13 +1,13 @@
-a-¿Cómo queda el máster después de estos cambios?
+A-¿Cómo queda el máster después de estos cambios?
 
 El archivo beta.txt fue modificado por alfa y gamma.
 El master contiene todos los cambios realizados.
 
-b-¿Beta pudo ver todos los cambios que se realizaron?
+B-¿Beta pudo ver todos los cambios que se realizaron?
 
 Si
 
-c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+C-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
 
 - git pull origin main
 
@@ -18,3 +18,38 @@ c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merg
 - git commit -m "datos.txt"
 
 - git push origin main
+
+
+D-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+
+Las ramas de BETA y GAMMA quedaron con los datos proporcionados en el momento pedido, no se actualizaron con el merge.
+
+E-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+
+Cuando ejecutamos el merge desde la consola luego de hacer todos los procedimientos y sin inconvenientes, en la interfaz de github no aparecia ningun indicio de merge.
+
+
+F--¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+
+
+	echo "rodrigo gorno
+	ip :182.140.1.20
+	2024-11-20 21:53" >> beta.txt
+
+
+	git add .
+	git commit -m "Update beta.txt"
+	git push origin main
+
+
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+
+se modifica el archivo beta
+	echo "tobias schmidt
+	ip: 25.55.130.22
+	2024-11-20 21:56" >> beta.txt
+
+se hace el push
+	git add .
+	git commit -m "Updated beta.txt"
+	git push origin main
