@@ -1,1 +1,20 @@
+a-¿Cómo queda el máster después de estos cambios?
 
+El archivo beta.txt fue modificado por alfa y gamma.
+El master contiene todos los cambios realizados.
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+
+Si
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+
+- git pull origin main
+
+- git merge gorno
+
+- git add datos.txt
+
+- git commit -m "datos.txt"
+
+- git push origin main
